@@ -6,3 +6,8 @@
 Главное при этом самому не добавлять новых ошибок.
 
 файлы задания лежат в директории task
+
+Установка:
+
+1) git clone git@github.com:killyouare/testtask.git task
+2) ```cd task && docker run --rm --interactive --tty --volume $PWD:/app composer install```
