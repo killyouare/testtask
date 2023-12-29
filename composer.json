@@ -1,0 +1,18 @@
+{
+    "name": "killyouare/testtask",
+    "authors": [
+        {
+            "name": "killyouare",
+            "email": "ya.ilyaku@gmail.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Killyouare\\Testtask\\": "src/"
+        },
+        "files": [
+            "src/App/Functions/functions.php"
+        ]
+    }
+}
