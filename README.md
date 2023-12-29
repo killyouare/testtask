@@ -9,5 +9,6 @@
 
 Установка:
 
-1) git clone git@github.com:killyouare/testtask.git task
-2) ```cd task && docker run --rm --interactive --tty --volume $PWD:/app composer install```
+1) ```git clone git@github.com:killyouare/testtask.git task```
+2) ```cd task```
+3) ```docker run --rm --interactive --tty --volume $PWD:/app composer install```
